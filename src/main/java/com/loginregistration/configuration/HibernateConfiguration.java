@@ -41,9 +41,9 @@ public class HibernateConfiguration
 		System.out.println("DATASOURCE");
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/SpringBootRestAPI");
+		dataSource.setUrl("jdbc:mysql://rdstestintance.c4blleejjedf.ap-south-1.rds.amazonaws.com:3306/SpringBootRestAPI");
 		dataSource.setUsername("root");
-		dataSource.setPassword("bridgeit");
+		dataSource.setPassword("fundoo8080");
 		return dataSource;
 	}
  
